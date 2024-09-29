@@ -1,6 +1,6 @@
 .container{
     background-color: #f1f1f1;
-    height: calc(100vh - 145px);
+    min-height: calc(100vh - 145px);
 }
 .heading{
     text-transform: uppercase;
