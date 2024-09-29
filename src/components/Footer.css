@@ -1,0 +1,24 @@
+.footer{
+    height: 80px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(19, 30, 64);
+    color: #fff;
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.social-media a{
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-media a:hover{
+    color: #1a6ef5;
+}

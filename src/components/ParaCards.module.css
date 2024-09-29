@@ -1,0 +1,103 @@
+.heading{
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px #6e6e6e;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.input-box label{
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.input-box input{
+    max-width: 4rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.input-box button{
+   padding: 0.6rem 1rem; 
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none; 
+    background-color: #171545;
+    transition: background-color 0.3s;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.paraCards{
+    padding: 1rem 2rem;
+}
+
+.card{
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.card h2{
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #6e6e6e;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #2563eb;
+}
+
+.card p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #666;
+    text-align: justify;
+}
+
+.card p::first-letter{
+    font-weight: 700;
+    color: #4f4e4e;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+    .card{
+        max-width: none;
+        width: 100%;
+    }
+    .paraCards{
+        padding: 0.5rem;
+    }
+}
