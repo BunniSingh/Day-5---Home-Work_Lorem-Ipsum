@@ -1,3 +1,7 @@
+.container{
+    background-color: #f1f1f1;
+    height: calc(100vh - 145px);
+}
 .heading{
     text-transform: uppercase;
     padding: 1rem;
@@ -8,9 +12,6 @@
     text-shadow: 2px 2px 5px #6e6e6e;
 }
 
-body{
-    background-color: #f1f1f1;
-}
 
 .input-box{
     display: flex;

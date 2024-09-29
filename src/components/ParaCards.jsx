@@ -22,7 +22,7 @@ const ParaCards = () => {
         setNumberOfPara(paragraphArr);
     }
     return (
-        <Fragment>
+        <div className={style.container}>
             <h1 className={style.heading}>Tired of boring lorem ipsum?</h1>
             <div className={style['input-box']}>
                 <label htmlFor="search">Paragraphs:
@@ -44,7 +44,7 @@ const ParaCards = () => {
                     })
                 }
             </div>
-        </Fragment>
+        </div>
 
     );
 
