@@ -29,6 +29,7 @@ const ParaCards = () => {
                 </label>
                 <input type="number" onChange={(e) => {
                     setParagraphsLength(Number(e.target.value));
+                    setNumberOfPara([]);
                 }} />
                 <button type="submit" onClick={generateParagraph}>Genetate</button>
             </div>
